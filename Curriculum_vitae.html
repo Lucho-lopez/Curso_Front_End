@@ -1,141 +1,218 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Curriculum</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
-    <script src='main.js'></script>
+    <script src='codigo.js' defer></script>
     <script src="https://kit.fontawesome.com/983175bd2f.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <div id="informacion_Personal" >
-        <img src="https://randomuser.me/api/portraits/men/87.jpg" alt="foto frontal del postulante">
-        <h2> CONTACTO </h2> 
+    <div class="contenedor_principal">
+        <aside class="informacion_personal">
+            <img src="https://randomuser.me/api/portraits/men/87.jpg" alt="foto frontal del postulante">
+            <div class="informacion_bloque">
+                <h2> CONTACTO </h2>
 
-            <i class="fa-solid fa-phone icono_Contacto"></i>
-            <p class = "blanco"> (249) 616-4571 </p>
+                <p class="blanco"> <i class="fa-solid fa-phone icono_Contacto"></i> (249) 616-4571 </p>
 
-            <i class="fa-solid fa-house icono_Contacto"></i>
+                <p class="blanco"> <i class="fa-solid fa-house icono_Contacto"></i> 2903 Wheeler Ridge Dr</p>
 
-
-            <p class = "blanco"> 2903 Wheeler Ridge Dr</p>
-
-
-            <i class="fa-solid fa-envelope icono_Contacto"></i>
-
-            <p class = "blanco"> brett.campbell@example.com </p>
-
-        <h2> PERFIL </h2>  
-            <p class = "blanco"> Edad:  </p>
-            <p class = "blanco"> Nacimiento: 9/7/1961 </p>
-            <p class = "blanco"> Localidad: </p>
-            <p class = "blanco"> Nacionalidad </p>
-        <h2> IDIOMA </h2> 
-            <p class = "blanco"> Idioma 1 </p>
-            <p class = "blanco"> Idioma 2 </p>
-            <p class = "blanco"> Idioma 3 </p>
-        <h2> HABILIDADES </h2>  
-            <p class = "blanco"> ★★★★☆ Habilidad 1 </p>
-            <p class = "blanco"> ★★★☆☆ Habilidad 2 </p>
-            <p class = "blanco"> ★★★☆☆ Habilidad 3 </p>
-    </div>
-    <div id="informacion_Laboral">
-        <h1> BRETT CAMPBELL</h1>
-        <span class="fa-stack"> 
-            <i class="fa fa-circle-thin fa-stack-2x"></i>
-            <i class="fa fa-sharp fa-solid fa-briefcase fa-stack-1x"></i>
-        </span>
-        <div class="titulo_Sector"> 
-            <h2 class="subtitulo_Negro"> EXPERIENCIA LABORAL </h2>
-        </div>
-        <ul class="experiencia_contenido">
-            <li>
-                <div class="experiencia_fecha">
-                    <div class="circulo"></div>
-                    <p> Mar 2019 - Sep 2022 </p>
-                </div>
-                <div class="experiencia_informacion">
-                    <h3> Atención al público </h3>
-                    <p> Magic Selfie, </p>
-                    <p> La Plata, Buenos Aires. </p>
-                    <p> 🞄 Armado de equipo. </p>
-                    <p> 🞄 Control y atencion de clientes. </p>
-                </div>
-            </li>
-            <li>
-                <div class="experiencia_fecha">
-                    <div class="circulo"></div>
-                    <p> Mar 2019 - Sep 2022 </p>
-                </div>
-                <div class="experiencia_informacion">
-                    <h3> Ayudante de animacion </h3>
-                    <p> Magic Play Animaciones, </p>
-                    <p> La Plata, Buenos Aires. </p>
-                    <p> 🞄 Armado de equipo. </p>
-                    <p> 🞄 Sincronizacion de audio y video. </p>
-                    <p> 🞄 Control de niños. </p>
-                </div>
-            </li>
-            <li>
-                <div class="experiencia_fecha">
-                    <div class="circulo"></div>
-                    <p> Mar 2019 - Sep 2022 </p>
-                </div>
-                <div class="experiencia_informacion">
-                    <h3> Atención al público </h3>
-                    <p> Caramel Productos Artesanales, </p>
-                    <p> La Plata, Buenos Aires. </p>
-                    <p> 🞄 Arqueo de caja. </p>
-                    <p> 🞄 Ventas. </p>
-                    <p> 🞄 Reposicion de stock. </p>
-                    <p> 🞄 Embazado y etiquetado de productos. </p>
-                </div>
-            </li>
-            <li>
-                <div class="experiencia_fecha">
-                    <div class="circulo"></div>
-                    <p> Mar 2019 - Sep 2022 </p>
-                </div>
-                <div class="experiencia_informacion">
-                    <h3> Atención al público </h3>
-                    <p> Consultorios del Alto, </p>
-                    <p> Centenario, Neuquén. </p>
-                    <p> 🞄 Toma de pacientes para profesionales. </p>
-                    <p> 🞄 Relleno de fichas. </p>
-                    <p> 🞄 Carga en sistema de turnos y documentacion. </p>
-                </div>
-            </li>
-        </ul>
-        <span class="fa-stack"> 
-            <i class="fa fa-circle-thin fa-stack-2x"></i>
-            <i class="fa fa-sharp fa-solid fa-graduation-cap fa-stack-1x"></i>
-        </span>
-        <h2 class="subtitulo_Negro"> EDUCACION </h2>
-            <div>
-                <h3> Licenciatura en Informática </h3>
-                <p> Facultad de Informática UNLP, </p>
-                <p> La Plata, Buenos Aires. </p>
-                <p> 🞄 Estudiante avanzado +50%. </p>
+                <p class="blanco"> <i class="fa-solid fa-envelope icono_Contacto"></i> brett.campbell@example.com </p>
             </div>
-            <div>
-                <h3> Analista Programador Universitario </h3>
-                <p> Facultad de Informática UNLP, </p>
-                <p> La Plata, Buenos Aires. </p>
-                <p> 🞄 Estudiante avanzado +70%. </p>
+            <div class="informacion_bloque">
+                <h2> PERFIL </h2>
+                <p class="blanco"> Edad: 25 años </p>
+                <p class="blanco"> Nacimiento: 13/03/1997 </p>
+                <p class="blanco"> Localidad: La Plata</p>
+                <p class="blanco"> Nacionalidad: Argentina </p>
             </div>
-            <div>
-                <h3> Curso SeProgramar </h3>
-                <p> Argentina Programa. </p>
-                <p> 🞄 Completado. </p>
+            <div class="informacion_bloque">
+                <h2> IDIOMA </h2>
+                <p class="blanco"> Ingles: avanzado </p>
+                <p class="blanco"> Frances: intermedio </p>
+                <p class="blanco"> Aleman: bajo </p>
             </div>
-            <div>
-                <h3> Curso SeProgramar </h3>
-                <p> Argentina Programa. </p>
-                <p> 🞄 Completado. </p>
+            <div class="informacion_bloque">
+                <h2> HABILIDADES </h2>
+                <p class="blanco habilidad"> Phyton
+                    <i class=" fa-sharp fa-solid fa-star icono_habilidades fa-2xs"></i>
+                    <i class="fa-sharp fa-solid fa-star icono_habilidades fa-2xs"></i>
+                    <i class="fa-sharp fa-solid fa-star icono_habilidades fa-2xs"></i>
+                    <i class="fa-sharp fa-solid fa-star icono_habilidades fa-2xs"></i>
+                    <i class="fa-sharp fa-regular fa-star icono_habilidades fa-2xs"></i>
+                </p>
+                <p class="blanco habilidad"> Java
+                    <i class=" fa-sharp fa-solid fa-star icono_habilidades fa-2xs"></i>
+                    <i class="fa-sharp fa-solid fa-star icono_habilidades fa-2xs"></i>
+                    <i class="fa-sharp fa-solid fa-star icono_habilidades fa-2xs"></i>
+                    <i class="fa-sharp fa-regular fa-star icono_habilidades fa-2xs"></i>
+                    <i class="fa-sharp fa-regular fa-star icono_habilidades fa-2xs"></i>
+                </p>
+                <p class="blanco habilidad"> C
+                    <i class=" fa-sharp fa-solid fa-star icono_habilidades fa-2xs"></i>
+                    <i class="fa-sharp fa-solid fa-star icono_habilidades fa-2xs"></i>
+                    <i class="fa-sharp fa-regular fa-star icono_habilidades fa-2xs"></i>
+                    <i class="fa-sharp fa-regular fa-star icono_habilidades fa-2xs"></i>
+                    <i class="fa-sharp fa-regular fa-star icono_habilidades fa-2xs"></i>
+                </p>
             </div>
-
+        </aside>
+        <header>
+            <h1>BRETT CAMPBELL</h1>
+        </header>
+        <main class="informacion_laboral">
+            <article>
+                <div class="titulo_sector">
+                    <div class="fa-stack">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fa fa-sharp fa-solid fa-briefcase fa-stack-1x"></i>
+                    </div>
+                    <h2 class="subtitulo_negro"> EXPERIENCIA LABORAL </h2>
+                </div>
+                <ul class="experiencia_contenido">
+                    <li>
+                        <div class="experiencia_fecha">
+                            <div class="circulo"></div>
+                            <date> Mar 2019 - Sep 2022 </date>
+                        </div>
+                        <div class="experiencia_informacion">
+                            <div class="subtitulo_boton">
+                                <h3> Atención al público </h3>
+                                <button class=" desplegar_info"> <img src="/imagenes/flecha.svg" alt="flecha"> </button>
+                            </div>
+                            <div class="empleador_localidad">
+                                <p> Magic Selfie, </p>
+                                <p> La Plata, Buenos Aires. </p>
+                            </div>
+                            <div class="tareas_cumplidas">
+                                <p> 🞄 Armado de equipo. </p>
+                                <p> 🞄 Control y atencion de clientes. </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="experiencia_fecha">
+                            <div class="circulo"></div>
+                            <date> Mar 2019 - Sep 2022 </date>
+                        </div>
+                        <div class="experiencia_informacion">
+                            <div class="subtitulo_boton">
+                                <h3> Ayudante de animacion </h3>
+                                <button class=" desplegar_info"> <img src="/imagenes/flecha.svg" alt="flecha"> </button>
+                            </div>
+                            <div class="empleador_localidad">
+                                <p> Magic Play Animaciones, </p>
+                                <p> La Plata, Buenos Aires. </p>
+                            </div>
+                            <div class="tareas_cumplidas">
+                                <p> 🞄 Armado de equipo. </p>
+                                <p> 🞄 Sincronizacion de audio y video. </p>
+                                <p> 🞄 Control de niños. </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="experiencia_fecha">
+                            <div class="circulo"></div>
+                            <date> Mar 2019 - Sep 2022 </date>
+                        </div>
+                        <div class="experiencia_informacion">
+                            <div class="subtitulo_boton">
+                                <h3> Atención al público </h3>
+                                <button class=" desplegar_info"> <img src="/imagenes/flecha.svg" alt="flecha"> </button>
+                            </div>
+                            <div class="empleador_localidad">
+                                <p> Caramel Productos Artesanales, </p>
+                                <p> La Plata, Buenos Aires. </p>
+                            </div>
+                            <div class="tareas_cumplidas">
+                                <p> 🞄 Arqueo de caja. </p>
+                                <p> 🞄 Ventas. </p>
+                                <p> 🞄 Reposicion de stock. </p>
+                                <p> 🞄 Embazado y etiquetado de productos. </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="experiencia_fecha">
+                            <div class="circulo"></div>
+                            <date> Mar 2019 - Sep 2022 </date>
+                        </div>
+                        <div class="experiencia_informacion">
+                            <div class="subtitulo_boton">
+                                <h3> Atención al público </h3>
+                                <button class=" desplegar_info"> <img src="/imagenes/flecha.svg" alt="flecha"> </button>
+                            </div>
+                            <div class="empleador_localidad">
+                                <p> Consultorios del Alto, </p>
+                                <p> Centenario, Neuquén. </p>
+                            </div>
+                            <div class="tareas_cumplidas">
+                                <p> 🞄 Toma de pacientes para profesionales. </p>
+                                <p> 🞄 Relleno de fichas. </p>
+                                <p> 🞄 Carga en sistema de turnos y documentacion. </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </article>
+            <article>
+                <div class="titulo_sector">
+                    <div class="fa-stack">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fa fa-sharp fa-solid fa-graduation-cap fa-stack-1x"></i>
+                    </div>
+                    <h2 class="subtitulo_negro"> EDUCACION </h2>
+                </div>
+                <ul class="experiencia_contenido">
+                    <li>
+                        <div class="experiencia_fecha">
+                            <div class="circulo"></div>
+                            <date> Mar 2019 - Sep 2022 </date>
+                        </div>
+                        <div class="experiencia_informacion">
+                            <h3> Licenciatura en Informática </h3>
+                            <div class="experiencia_institucion_localidad">
+                                <p> Facultad de Informática UNLP, </p>
+                            </div>
+                            <p> 🞄 Estudiante avanzado +50%. </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="experiencia_fecha">
+                            <div class="circulo"></div>
+                            <date> Mar 2019 - Sep 2022 </date>
+                        </div>
+                        <div class="experiencia_informacion">
+                            <h3> Analista Programador Universitario </h3>
+                            <div class="experiencia_institucion_localidad">
+                                <p> Facultad de Informática UNLP, </p>
+                            </div>
+                            <p> 🞄 Estudiante avanzado +70%. </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="experiencia_fecha">
+                            <div class="circulo"></div>
+                            <date> Mar 2019 - Sep 2022 </date>
+                        </div>
+                        <div class="experiencia_informacion">
+                            <h3> Curso SeProgramar </h3>
+                            <div class="experiencia_institucion_localidad">
+                                <p> Argentina Programa. </p>
+                            </div>
+                            <p> 🞄 Completado. </p>
+                        </div>
+                    </li>
+                </ul>
+            </article>
+        </main>
     </div>
 </body>
+
 </html>
