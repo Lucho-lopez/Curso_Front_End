@@ -22,8 +22,8 @@ function alternarTareasCumplidas(nodo, alturaBase, alturaAbierto){
 }
 
 botonesExperienciaInformacion.forEach((boton,indice)=>{
-    const base = tareasCumplidas[indice].parentNode.offsetHeight - tareasCumplidas[indice].offsetHeight;
-    const abierto = tareasCumplidas[indice].parentNode.offsetHeight;
+    const base = tareasCumplidas[indice].parentNode.offsetHeight - tareasCumplidas[indice].offsetHeight +8;
+    const abierto = tareasCumplidas[indice].parentNode.offsetHeight +8;
     tareasCumplidas[indice].parentNode.style.height = base + 'px';
     boton.addEventListener('click', () => alternarTareasCumplidas(tareasCumplidas[indice], base, abierto))
 })
